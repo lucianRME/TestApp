@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Details JTest Results</title>
+<style type="text/css">
+th {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #99F;
+	font-size:14px;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #CCC;
+}
+
+#general {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #FFF;
+	border: 0px;
+	text-align:left;
+	font-weight: bold;
+}
+
+#noerrors {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #096;
+	font-size: 14px;
+}
+
+#failures {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #606;
+	font-size: 14px;
+}
+
+#errors {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #F00;
+	font-size: 14px;
+}
+
+#statuserror {
+    visibility: visible;
+}
+
+#statusok {
+    visibility: hidden;
+}
+
+#summary {
+	font-family: Arial, Helvetica, sans-serif;
+}
+tr td #noerrors td a {
+	color: #096;
+}
+tr td #errors td a {
+	color: #F00;
+}
+#details {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color: #FFF;
+	text-align:left;
+	font-weight:bold;
+}
+
+.results {
+	background-color: #CCC;
+}
+</style>
+</head>
+
+<body>
+<table width="100%" id="general">
+  <tr><td><h2 class="title">JTest Results</h2><hr /></td></tr>
+  <tr>
+    <td><table width="100%" border="0" id="summary">
+         <tr>
+            <th scope="col" width="60%">Name</th>
+            <th scope="col" width="10%">Tests</th>
+            <th scope="col" width="10%">Errors</th>
+            <th scope="col" width="10%">Failures</th>
+            <th scope="col" width="10%">Message</th>
+          </tr>
+          <tr class="results" id="errors">
+            <td>test.CalculatorTest</td>
+            <td>3</td>
+            <td>0</td>
+            <td>1</td>
+            <td>-</td>
+          </tr>
+        </table>
+	</td>
+  </tr>
+  <tr><td></td></tr>
+  <tr id="statuserror">
+  	<td><table width="100%" border="0">
+    		<caption id="details">
+            	Tests
+            </caption>
+            <tr>
+            <th scope="col" width="40%">Name</th>
+            <th scope="col" width="20%">Status</th>
+            <th scope="col" width="40%">Type</th>
+          </tr>
+                      <tr class="results" id=noerrors>
+                          <td>testAduna</td>
+                          <td>Success</td>
+                          <td>-</td>
+            </tr>
+                      <tr class="results" id=noerrors>
+                          <td>testImpartireCuZero</td>
+                          <td>Success</td>
+                          <td>-</td>
+            </tr>
+                      <tr class="results" id=failures>
+                          <td>testImparte</td>
+                          <td>Fail</td>
+                          <td>expected:<1> but was:<2.0></td>
+            </tr>
+          
+
+    </table></td>
+  </tr>
+</table>
+</body>
+</html>

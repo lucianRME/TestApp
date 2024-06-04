@@ -1,0 +1,11 @@
+<xml>
+    <suite>
+	<testcase>test.SampleTest</testcase>
+        <testcase>test.SampleTest1</testcase>
+        <testcase>test.SampleTest2</testcase>
+        <testcase>test.SampleTest3</testcase>
+        <testcase>test.CalculatorTest</testcase>
+	<testcase>test.NoFile</testcase>
+	<testcase>test.TestCaseWithoutJTest</testcase>
+    </suite>
+</xml>
